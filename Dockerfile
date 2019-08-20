@@ -72,7 +72,7 @@ RUN apt-get update -qq \
     libcurl4-openssl-dev \
     libssl-dev \
     libsodium-dev \
-    && install2.r \
+    && install2.r --error \
     --deps TRUE \
     tidyverse \
     dplyr \
